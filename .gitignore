@@ -1,0 +1,16 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform variables
+*.tfvars
+
+# AWS credentials
+.aws/
+
+# OS files
+.DS_Store
+Thumbs.db
