@@ -35,7 +35,7 @@ Private S3 Bucket
 
 Initialize Terraform:
 
-bash:
+```bash:
 terraform init
 
 Validate:
@@ -50,3 +50,6 @@ Terraform Infrastructure as Code
 Cloud Security
 Serverless Architecture
 Networking Concepts
+
+# temis-aws-cloudfront-s3-terraform
+Secure AWS static website deployment using Terraform, S3, CloudFront, and Origin Access Control.
