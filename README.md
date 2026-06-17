@@ -1,5 +1,8 @@
 # AWS CloudFront + S3 Static Website using Terraform
 
+# ARCHITECTURE DIAGRAM
+![image alt](https://github.com/teajo99/temis-aws-cloudfront-s3-terraform/blob/4f248f5a8960c9aea276236b864f6d4b5d4ad5ae/Architecture%20diagram.png)
+
 ## Project Overview
 
 This project demonstrates a secure static website deployment on AWS using Infrastructure as Code.
