@@ -3,10 +3,15 @@
 # ARCHITECTURE DIAGRAM
 ![image alt](https://github.com/teajo99/temis-aws-cloudfront-s3-terraform/blob/4f248f5a8960c9aea276236b864f6d4b5d4ad5ae/Architecture%20diagram.png)
 
+Architecture diagram showing a secure AWS static website hosting solution. Users access a static website through Amazon CloudFront CDN over HTTPS. CloudFront retrieves content from a private Amazon S3 bucket using Origin Access Control (OAC), ensuring secure and restricted access. The infrastructure is deployed and managed using Terraform Infrastructure as Code, enabling automated provisioning of AWS resources including S3, CloudFront distribution, and IAM permissions.
+
 ## Project Overview
 
 This project demonstrates a secure static website deployment on AWS using Infrastructure as Code.
 
+## Architecture Decision
+
+CloudFront was chosen to ensure secure, low-latency global delivery while keeping the S3 bucket private using Origin Access Control (OAC), following AWS security best practices.
 ## Architecture
 
 User
